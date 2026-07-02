@@ -1,0 +1,1 @@
+kral koplayabazsın bana ozel
