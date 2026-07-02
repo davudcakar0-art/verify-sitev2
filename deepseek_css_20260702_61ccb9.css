@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #36393f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.verify-box {
+    background: #2f3136;
+    padding: 35px 28px;
+    border-radius: 12px;
+    text-align: center;
+    color: #dcddde;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.discord-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    background: #5865f2;
+    padding: 10px;
+}
+
+.verify-box h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.desc {
+    font-size: 13px;
+    color: #b9bbbe;
+    margin-bottom: 20px;
+}
+
+.info-panel {
+    background: #202225;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 20px;
+    border-left: 4px solid #5865f2;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    font-size: 13px;
+}
+
+.info-item span {
+    color: #b9bbbe;
+}
+
+.info-item strong {
+    color: #fff;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.form-area {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    margin-bottom: 14px;
+}
+
+.input-wrapper label {
+    display: block;
+    font-size: 12px;
+    color: #b9bbbe;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 11px 14px;
+    background: #202225;
+    border: 1.5px solid #40444b;
+    border-radius: 6px;
+    color: #dcddde;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.input-wrapper input:focus {
+    border-color: #5865f2;
+}
+
+.input-wrapper input::placeholder {
+    color: #5c6068;
+}
+
+.error-msg {
+    color: #ed4245;
+    font-size: 11px;
+    margin-top: 4px;
+    display: none;
+}
+
+.error-msg.show {
+    display: block;
+}
+
+.verify-btn {
+    width: 100%;
+    padding: 13px;
+    background: #5865f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 5px;
+}
+
+.verify-btn:hover {
+    background: #4752c4;
+}
+
+.verify-btn:disabled {
+    background: #3c3f46;
+    cursor: not-allowed;
+}
+
+.footer-text {
+    font-size: 10px;
+    color: #72767d;
+    margin-top: 18px;
+}
+
+.success-icon {
+    display: none;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.success-icon.show {
+    display: block;
+}

